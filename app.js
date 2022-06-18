@@ -3,6 +3,10 @@ const fs = require("fs");
 const app = express();
 require("colors");
 
+//setup cors
+const cors = require("cors");
+app.use(cors());
+
 //use body parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

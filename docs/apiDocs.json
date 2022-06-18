@@ -1,0 +1,12 @@
+{
+    "/":"get api docs",
+    "/api/v1/auth/login[POST]":"login with email and password",
+    "/api/v1/auth/register[POST]":"register with name,email and password",
+    "/api/v1/auth/me[GET]":"get user info",
+    "/api/v1/auth/logout[GET]":"logout user",
+    "/api/v1/posts[GET]":"get all posts",
+    "/api/v1/posts[POST]":"create post",
+    "/api/v1/posts/:id[PUT]":"update post",
+    "/api/v1/posts/:id[GET]":"view post",
+    "/api/v1/posts/:id[DELETE]":"delete post"
+}
